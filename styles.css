@@ -1,0 +1,125 @@
+/* Elements */
+body {
+	background-color: #356;
+	position: relative;
+	height: 100vh;
+	width: 1200px;
+	min-width: 1200px;
+}
+body:hover{
+	background-color: #355;
+}
+.circle {
+	width: 5em;
+	height: 5em;
+	background-color: #457;
+	border-radius: 50%;
+	position: absolute;
+	left: 7%;
+	top: 10%;
+	position: absolute;
+}
+.circle-2 {
+	width: 5em;
+	height: 5em;
+	background-color: #457;
+	border-radius: 50%;
+	position: absolute;
+	left: 7%;
+	top: 20%;
+	position: absolute;
+
+}
+.circle-3 {
+	width: 5em;
+	height: 5em;
+	background-color: #457;
+	border-radius: 50%;
+	position: absolute;
+	left: 7%;
+	top: 30%;
+
+}
+.circle:hover{
+	background-color: #478;
+}
+.circle-2:hover{
+	background-color: #478;
+}
+.circle-3:hover{
+	background-color: #478;
+}
+.line{
+	height: 1px;
+	width: 200%;
+	background-color: steelblue;
+	transform: rotate(45deg);
+}
+.line-2{
+	height: 5px;
+	width: 250%;
+	background-color: steelblue;
+	transform: rotate(-30deg) scaleX(2);
+
+}
+.square-4{
+	height: 70px;
+	width: 70px;
+background-color: rgb(4, 130, 66);
+	margin: 600px;
+	margin-left: 600px;
+	position:relative;
+	transition: width 1s;
+	transition-timing-function: ease-out;
+}
+.square-4:hover{
+	width: 500px;
+}
+.square-5{
+	height: 70px;
+	width: 70px;
+background-color: rgb(4, 100, 66);
+	margin: -670px;
+	margin-left: 500px;
+}
+.square-6{
+	height: 70px;
+	width: 70px;
+background-color: rgb(4, 70, 66);
+	margin: 500px;
+	margin-left: 599px;
+}
+
+.square-7 {
+	height: 500px;
+	width: 500px;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0.5, 0.5));
+	margin:-880px;
+	margin-left: 150px;
+}
+.square {
+	height: 500px;
+	width: 500px;
+background-image: linear-gradient(to left, rgba(4, 30, 66, 0), rgba(4, 30, 66, 0.5));
+	margin: 70px;
+	margin-left: 100px;
+}
+.square-2{
+	height: 500px;
+	width: 500px;
+background-color: #445;
+	margin: -650px;
+	margin-left: 120px;
+}
+.square-3 {
+  width: 100px;
+  height: 100px;
+  background: #423;
+  transition: width 2s;
+	transition-timing-function: ease-in-out;
+	background-image: linear-gradient(to left, rgba(4, 30, 66, 0), rgba(4, 30, 66, 0.5));
+}
+
+.square-3:hover {
+  width: 1000px;
+}
